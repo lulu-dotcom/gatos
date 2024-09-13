@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoção</title>
+</head>
+<body>
+
+        <style>
+            body{ background-color:#ffa958;}
+        </style>
+        <h1>Cadastro para adoção de gatos</h1>
+    
+    
+        <form method="POST">
+    
+           <fieldset>
+                <legend>Usuário</legend>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+            <br>
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome...">
+            <br>
+                <label for="email">email</label>
+                <input type="email"name="email" id="email" placeholder="Digite seu email..." required>
+            <br>
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf" placeholder="Digite seu cpf..." required>
+            <br>
+               
+                <fieldset>
+                    <legend>Sexo do Gato (preferência)</legend>
+                    <input type="radio" name="sexo" value="femea"> Fêmea
+                    <input type="radio" name="sexo" value="macho"> Macho
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Idade (preferência)</legend>
+                    <input type="radio" name="genero" value="filhote"> Filhote
+                    <input type="radio" name="genero" value="jovem"> Jovem adulto
+                    <input type="radio" name="genero" value="adulto"> Adulto
+                    <input type="radio" name="genero" value="velhinho"> Idoso
+                </fieldset>
+        
+                <p>Em que tipo de imóvel você mora?</p>
+                <select name="casa" id="casa">
+                    <option value="Casa">Casa</option>
+                    <option value="cinamoroll">Apartamento</option>
+                    <option value="badtz maru">Kitnet</option>
+                    <option value="my melody">Motorhome</option>
+                </select>
+                <br>
+                <br>
+                
+                <fieldset>
+                    <label for="nome">Mora em outro lugar? se sim, digite abaixo:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite o lugar...">
+                </fieldset>
+                    
+                    <p>Qual a sua renda anual?</p>
+                    <select name="casa" id="casa">
+                        <option value="renda">- de R$10.000,00</option>
+                        <option value="renda">de R$10.,00 à R$15.000,00</option>
+                        <option value="renda">de R$15.000,00 à R$30.000,00</option>
+                        <option value="renda">de R$30.000,00 à R$50.000,00</option>
+                        <option value="renda">de R$50.000,00 à R$80.000,00</option>
+                        <option value="renda">de R$80.000,00 à R$100.000,00</option>
+                        <option value="renda">Mais de R$100.000,00 Por ano</option>
+
+                    </select>
+                    <br>
+                    <br>
+                
+                <fieldset>
+                    <input type="submit" value="enviar dados">
+                    <input type="reset" value="limpar dados">
+                </fieldset>
+        </form>
+        <li> <a class="active" href="gato.html">Home</a></li
+</body>
+</html>
